@@ -1,0 +1,108 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class=" mb-0 h1">Proxy Scraper: <span class="orange">Java </span> <span class="green">Spring</span> + <span class="darkergreen">MongoDB</span> + <span class="red">Angular</span> + <span class="purple">Heroku</span></span>
+  </div>
+</nav>
+<div class="container" id="main-container">
+  <div class="row">
+    <!--<div *ngFor="let proxy of proxies" class="col-md-6 col-xl-3">
+      {{proxy.ip}}
+    </div>-->
+    <table class="table">
+      <thead>
+        <th>ID</th>
+        <th>IP</th>
+        <th>Port</th>
+        <th>Location</th>
+        <th>Ms</th>
+        <th>ProxyType</th>
+        <th>Safety</th>
+      </thead>
+      <tr *ngFor="let proxy of proxies">
+        <td>{{proxy.id}}</td>
+        <td>{{proxy.ip}}</td>
+        <td>{{proxy.port}}</td>
+        <td>{{proxy.location}}</td>
+        <td>{{proxy.ms}}</td>
+        <td>{{proxy.proxyType}}</td>
+        <td>{{proxy.safety}}</td>
+      </tr>
+
+    </table>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Proxy Scraper</h5>
+
+        <p>
+          Lista de servidores proxy gratuitos de Internet. Solo los servidores proxy en funcionamiento son mostrados en este Scrapper.
+          <br>
+          <img src='../assets/images/angular.png'>
+          <img src='../assets/images/heroku.png'>
+          <img src='../assets/images/mongodb.png'>
+          <img src='../assets/images/spring.png'>
+          <img src='../assets/images/bootstrap.png'>
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Resources</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="https://www.youtube.com/channel/UCwFI7epHgTBY477PnA_2AqA/videos" class="text-white">Youtube</a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/rionacko" class="text-white">Twitch</a>
+          </li>
+          <li>
+            <a href="http://paypal.me/apesteguia" class="text-white">PayPal</a>
+          </li>
+          <li>
+            <a href="https://discord.gg/q4Nwm6Uphe" class="text-white">Discord Community</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Special thanks to</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <span>- Eduardo Zapata</span>
+          </li>
+          <li>
+            <span>- Juan Gines</span>
+          </li>
+          <li>
+            <span>- Sly Felipa</span>
+          </li>
+          <li>
+            <span>- Daniel Forteza</span>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-white" href="#">Daniel Apesteguia Timoner & Alberto Soto</a>
+  </div>
+  <!-- Copyright -->
+</footer>

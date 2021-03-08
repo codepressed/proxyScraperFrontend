@@ -1,0 +1,50 @@
+nav{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-family: Oswald, sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orange{
+    color:orange;
+}
+
+.darkergreen{
+    color:rgb(68, 201, 68);
+}
+
+.green{
+    color:greenyellow;
+}
+
+.purple{
+    color: rgb(202, 190, 202);
+}
+
+.red{
+    color:red;
+}
+
+table{
+    color: white;
+}
+
+thead{
+    background-color:darkcyan;
+    border: 2px solid black;
+    width: 100%;
+}
+
+img{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
